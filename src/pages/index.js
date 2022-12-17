@@ -90,8 +90,8 @@ const IndexPage = () => {
       <div className={styles.promotionContainer}>
         <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>Female</Link>
+          <Link to={'/shop'}>Male</Link>
         </div>
       </div>
 
@@ -107,7 +107,7 @@ const IndexPage = () => {
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'JOOOORNALLLLL'} subtitle={'These Are Notes on life and on style tooooo'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div>
